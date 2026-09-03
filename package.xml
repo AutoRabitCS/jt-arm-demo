@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>66.0</version>
+    <types>
+        <members>MB_Customer_Onboarding</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_c__c.Account__c</members>
+        <members>Customer_Onboarding_c__c.Approved_Date__c</members>
+        <members>Customer_Onboarding_c__c.Implementation_Notes__c</members>
+        <members>Customer_Onboarding_c__c.Risk_Level__c</members>
+        <members>Customer_Onboarding_c__c.Security_Review_Complete__c</members>
+        <members>Customer_Onboarding_c__c.Stage__c</members>
+        <members>Customer_Onboarding_c__c.Target_Go_Live_Date__c</members>
+        <members>Customer_Onboarding_c__c.Technical_Owner__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_c__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_c__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>MB_Customer_Onboarding_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Account-Account %28Marketing%29 Layout</members>
+        <members>Account-Account %28Sales%29 Layout</members>
+        <members>Account-Account %28Support%29 Layout</members>
+        <members>Account-Account Layout</members>
+        <members>Customer_Onboarding_c__c-Customer Onboarding Layout</members>
+        <members>UserAlt-User Profile Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_c__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_Manager</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>Anypoint Integration</members>
+        <members>ContractManager</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Marketing Profile</members>
+        <members>Custom%3A Sales Profile</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Einstein Agent User</members>
+        <members>External Einstein Agent User</members>
+        <members>Force%2Ecom - App Subscription User</members>
+        <members>Force%2Ecom - Free User</members>
+        <members>Identity User</members>
+        <members>MarketingProfile</members>
+        <members>Minimum Access - API Only Integrations</members>
+        <members>Minimum Access - Salesforce</members>
+        <members>Partner App Subscription User</members>
+        <members>Read Only</members>
+        <members>Salesforce API Only System Integrations</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
+        <members>StandardAul</members>
+        <members>Work%2Ecom Only User</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Customer_Onboarding_c__c.Require_Security_Review_For_Launch</members>
+        <name>ValidationRule</name>
+    </types>
+</Package>
