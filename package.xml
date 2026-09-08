@@ -4,4 +4,8 @@
         <members>Account.Customer_Tier__c</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>Customer_Tier_Perms</members>
+        <name>PermissionSet</name>
+    </types>
 </Package>
