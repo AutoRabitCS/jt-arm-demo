@@ -5,6 +5,7 @@
         <name>CustomApplication</name>
     </types>
     <types>
+        <members>Account.Risk_Status__c</members>
         <members>Customer_Onboarding_c__c.Account__c</members>
         <members>Customer_Onboarding_c__c.Approved_Date__c</members>
         <members>Customer_Onboarding_c__c.Implementation_Notes__c</members>
@@ -72,6 +73,7 @@
         <name>Profile</name>
     </types>
     <types>
+        <members>Account.Require_Account_Number_For_High_Risk</members>
         <members>Customer_Onboarding_c__c.Require_Security_Review_For_Launch</members>
         <name>ValidationRule</name>
     </types>
