@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Risk_Status__c</fullName>
+        <label>Risk Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <validationRules>
+        <fullName>Require_Account_Number_For_High_Risk</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    ISPICKVAL(Risk_Status__c, &quot;High&quot;),
+    ISBLANK(AccountNumber)
+)</errorConditionFormula>
+        <errorMessage>High-risk accounts require an Account Number.</errorMessage>
+    </validationRules>
+</CustomObject>
