@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <fields>
+        <fullName>Customer_Tier__c</fullName>
+        <label>Customer_Tier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>A</fullName>
+                    <default>false</default>
+                    <label>A</label>
+                </value>
+                <value>
+                    <fullName>B</fullName>
+                    <default>false</default>
+                    <label>B</label>
+                </value>
+                <value>
+                    <fullName>C</fullName>
+                    <default>false</default>
+                    <label>C</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+
     <fields>
         <fullName>Risk_Status__c</fullName>
         <label>Risk Status</label>
@@ -28,6 +58,7 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+
     <validationRules>
         <fullName>Require_Account_Number_For_High_Risk</fullName>
         <active>true</active>
@@ -37,4 +68,5 @@
 )</errorConditionFormula>
         <errorMessage>High-risk accounts require an Account Number.</errorMessage>
     </validationRules>
+
 </CustomObject>

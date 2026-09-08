@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>66.0</version>
+
     <types>
         <members>MB_Customer_Onboarding</members>
         <name>CustomApplication</name>
     </types>
+
     <types>
+        <members>Account.Customer_Tier__c</members>
         <members>Account.Risk_Status__c</members>
         <members>Customer_Onboarding_c__c.Account__c</members>
         <members>Customer_Onboarding_c__c.Approved_Date__c</members>
@@ -16,18 +20,22 @@
         <members>Customer_Onboarding_c__c.Technical_Owner__c</members>
         <name>CustomField</name>
     </types>
+
     <types>
         <members>Customer_Onboarding_c__c</members>
         <name>CustomObject</name>
     </types>
+
     <types>
         <members>Customer_Onboarding_c__c</members>
         <name>CustomTab</name>
     </types>
+
     <types>
         <members>MB_Customer_Onboarding_UtilityBar</members>
         <name>FlexiPage</name>
     </types>
+
     <types>
         <members>Account-Account %28Marketing%29 Layout</members>
         <members>Account-Account %28Sales%29 Layout</members>
@@ -37,14 +45,18 @@
         <members>UserAlt-User Profile Layout</members>
         <name>Layout</name>
     </types>
+
     <types>
         <members>Customer_Onboarding_c__c.All</members>
         <name>ListView</name>
     </types>
+
     <types>
         <members>Customer_Onboarding_Manager</members>
+        <members>Customer_Tier_Perms</members>
         <name>PermissionSet</name>
     </types>
+
     <types>
         <members>Admin</members>
         <members>Analytics Cloud Integration User</members>
@@ -72,9 +84,11 @@
         <members>Work%2Ecom Only User</members>
         <name>Profile</name>
     </types>
+
     <types>
         <members>Account.Require_Account_Number_For_High_Risk</members>
         <members>Customer_Onboarding_c__c.Require_Security_Review_For_Launch</members>
         <name>ValidationRule</name>
     </types>
+
 </Package>
