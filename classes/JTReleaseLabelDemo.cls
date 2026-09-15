@@ -4,4 +4,8 @@ public with sharing class JTReleaseLabelDemo {
         return 'Commit 1';
     }
 
+    public static String skippedChange() {
+        return 'I came from Commit 2';
+    }
+
 }

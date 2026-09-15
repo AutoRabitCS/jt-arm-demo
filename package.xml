@@ -2,6 +2,7 @@
     <version>66.0</version>
     <types>
         <members>JTReleaseLabelDemo</members>
+        <members>JTUnrelatedSkipped</members>
         <name>ApexClass</name>
     </types>
     <types>
